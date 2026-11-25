@@ -1,0 +1,41 @@
+{
+  "name": "aether-w6",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js v24 experimental wireless transport protocol featuring GF(2^8) sliding-window RLNC, Kalman delay-gradient wireless loss decoupling, HoL-free multi-stream multiplexing, Shannon-entropy Zstd, and 0-RTT ChaCha20-Poly1305 AEAD.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "node test/test-unit.mjs",
+    "bench": "node bench/09-chaos-bench.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xjl219/aether-w6.git"
+  },
+  "homepage": "https://github.com/xjl219/aether-w6#readme",
+  "bugs": {
+    "url": "https://github.com/xjl219/aether-w6/issues"
+  },
+  "author": "xjl219",
+  "keywords": [
+    "transport-protocol",
+    "udp",
+    "rlnc",
+    "fec",
+    "gf256",
+    "kalman-filter",
+    "congestion-control",
+    "wifi6",
+    "0-rtt",
+    "chacha20-poly1305",
+    "zstd",
+    "nodejs"
+  ],
+  "license": "MIT"
+}
